@@ -15,5 +15,12 @@ namespace SnakeAndLadder
             Console.WriteLine("The position of player start with {0}", position);
 
         }
+        //Created method Die rolled
+        public static void DieRolled()
+        {
+            Random random = new Random();
+            int diceRoll = random.Next(1, 7);
+            Console.WriteLine("The random number of dice: " + diceRoll);
+        }
     }
 }
