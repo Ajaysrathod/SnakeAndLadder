@@ -21,6 +21,9 @@
                 case 3:
                     SnakeAndLadder.CheckForPosition();
                     break;
+                case 4:
+                    SnakeAndLadder.PlayerWinCondition();
+                    break;
             }
         }
     }
